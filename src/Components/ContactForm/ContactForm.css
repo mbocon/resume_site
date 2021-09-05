@@ -1,0 +1,124 @@
+/* background-color: #cb90e4 !important; */
+/* border: 1px solid #ffcc00; */
+
+.contact {
+    background-color: #212529;
+    width: 50%;
+    margin: 5rem auto;
+    color: purple;
+    padding-top: 2rem;
+    box-shadow: 1px 1px 10px 1px #cb90e4;
+ }
+ 
+ .contact-page-h1 {
+     margin-top: 2rem;
+     font-size: 1.5rem;
+     color: #800080;
+ }
+ 
+ .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 400px;
+    padding-bottom: 2rem;
+ }
+ 
+ .contact-form > label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .contact-form > input {
+    width: 75%;
+    margin: 0.5rem auto;
+    padding: 5px;
+ }
+ 
+ .contact-form > input:focus,
+ .contact-form > textarea:focus {
+    outline: 0px;
+ }
+ 
+ .contact-form > textarea {
+    height: 150px;
+    width: 90%;
+    margin: 0.5rem auto;
+    padding: 10px;
+ }
+ 
+ .contact-form > input[type="submit"] {
+    width: 150px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: #cb90e4;
+    border: none !important;
+    outline: none !important;
+ }
+ 
+ .contact-form > input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(194, 66, 190);
+ }
+ 
+ .alert {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #cb90e4;
+    border-radius: 0 3rem 0 3rem;
+    color: white;
+ }
+ 
+ .required {
+    color: #ff0000;
+    font-size: 6px;
+    margin-left: 0.3rem;
+ }
+ 
+ .filled {
+    color: #1aff00;
+    font-size: 6px;
+    margin-left: 0.3rem;
+ }
+ 
+ .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+ 
+ .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+ }
+ 
+ @keyframes fadeInUp {
+    from {
+       opacity: 0;
+       visibility: hidden;
+       -webkit-transform: translate3d(0, 40px, 0);
+       transform: translate3d(0, 40px, 0);
+    }
+ 
+    to {
+       visibility: visible;
+       opacity: 1;
+       -webkit-transform: none;
+       transform: none;
+    }
+ }
+ 
+ @media (max-width: 768px) {
+    .contact {
+       width: 85%;
+    }
+ }
+ 

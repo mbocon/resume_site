@@ -1,0 +1,62 @@
+.home {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .home-first,
+ .home-second,
+ .home-third {
+    display: flex;
+ }
+ 
+ .home-first,
+ .home-third {
+    background: #67ccff;
+ }
+ 
+ .home-second {
+    flex-direction: row-reverse;
+    background-color: #00a6ff;
+ }
+ 
+ .home-img-1,
+ .home-img-2,
+ .home-img-3,
+ .home-content {
+    width: 50%;
+    height: 350px; /* Must specify a height */
+    background-position: center; /* Center the Img */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+ }
+ 
+ .home-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ 
+ .home-content > h1 {
+    font-size: 1.25rem;
+    border-bottom: 1px solid purple;
+ }
+ 
+ .home-content > p {
+    text-align: left;
+ }
+ 
+ .info {
+   position: relative;
+   bottom: 2px;
+ }
+ 
+ @media (max-width: 768px) {
+    .home-img-1,
+    .home-img-2,
+    .home-img-3,
+    .home-content {
+       height: 250px;
+    }
+ }
+ 

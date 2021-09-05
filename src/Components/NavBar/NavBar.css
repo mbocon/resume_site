@@ -1,0 +1,41 @@
+.theme-btn,
+.btn {
+   border: 0px;
+   outline: none !important;
+}
+
+.navbar-logo {
+   height: 60px;
+}
+
+.navbar-brand > a {
+   color: #085ED6!important;
+}
+
+.nav-link {
+   color: #085ED6!important;
+}
+
+.nav-link:hover {
+   background-color: hsla(282, 75%, 47%, 0.5);
+   color: white !important;
+   border: 1px solid #ffcc00;
+   border-radius: 1rem;
+   transition: background-color 0.5s;
+}
+
+.nav-link:not(:hover) {
+   background-color: inherit;
+   transition: background-color 1s;
+   border-radius: 1rem;
+}
+
+.ml-auto {
+   margin-left: auto;
+}
+
+.active {
+   background: hsla(282, 73%, 46%, 0.5) !important;
+   border: 1px solid #ffcc00;
+   color: white !important;
+}

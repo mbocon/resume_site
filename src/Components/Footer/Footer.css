@@ -1,0 +1,31 @@
+.footer {
+   width: 100vw;
+   color: #67ccff;
+}
+
+.footer-content {
+   padding: 2rem 1rem;
+   display: flex;
+   flex-wrap: wrap;
+   /* justify-content: space-between; */
+}
+
+.footer-icons {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.footer-icons > a {
+   color: #67ccff;
+   font-size: 1.75rem;
+}
+
+.footer-copy {
+   display: flex;
+   justify-content: center;
+   min-width: 100%;
+   flex-basis: 1;
+   padding-top: 2rem;
+}
